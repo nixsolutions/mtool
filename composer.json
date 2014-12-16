@@ -18,5 +18,8 @@
         "classmap": [
             "src/"
         ]
-    }
+    },
+    "bin": [
+        "mtool"
+    ]
 }
