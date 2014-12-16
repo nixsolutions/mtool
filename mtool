@@ -4,7 +4,7 @@
 define('PATH', dirname(__FILE__));
 
 // path for configs file
-$configPath = dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'application' . 
+$configPath = dirname(__FILE__) . DIRECTORY_SEPARATOR . '../../..' . DIRECTORY_SEPARATOR . 'application' .
     DIRECTORY_SEPARATOR . 'configs';
 define('CONFIG_PATH', $configPath);
 
