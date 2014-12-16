@@ -1,8 +1,13 @@
 {
-    "name": "mtool/mtool",
+    "name": "nixsolutions/mtool",
+    "version": "master",
     "description": "Migration tool",
     "minimum-stability": "dev",
     "license": "proprietary",
+    "dist": {
+        "url": "git@bitbucket.org:nixsolutions/mtool.git",
+        "type": "git"
+    },
     "authors": [
         {
             "name": "Dmitriy Britan",
