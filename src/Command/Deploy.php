@@ -1,7 +1,5 @@
 <?php
 
-require_once 'Abstract.php';
-
 /**
  * @package MTool
  * @author  Dmitriy Britan <dmitriy.britan@nixsolutions.com>

@@ -2,7 +2,6 @@
 /**
  * @see MTool_Command_Upgrade
  */
-require_once 'Upgrade.php';
 
 /**
  * @package MTool

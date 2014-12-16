@@ -2,7 +2,6 @@
 /**
  * @see MTool_Command_Abstarct
  */
-require_once 'Abstract.php';
 
 /**
  * Class implements command 'config'

@@ -2,7 +2,6 @@
 /**
  * @see MTool_Config
  */
-require_once 'MTool/Config.php';
 
 /**
  * Migration Tool Manager

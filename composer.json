@@ -1,0 +1,17 @@
+{
+    "name": "mtool/mtool",
+    "description": "Migration tool",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Dmitriy Britan",
+            "email": "dmitriy.britan@nixsolutions.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}

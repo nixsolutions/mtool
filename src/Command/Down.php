@@ -2,7 +2,6 @@
 /**
  * @see MTool_Command_Downgrade
  */
-require_once 'Downgrade.php';
 
 /**
  * @package MTool

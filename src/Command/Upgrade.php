@@ -2,7 +2,6 @@
 /**
  * @see MTool_Command_Abstract
  */
-require_once 'Abstract.php';
 
 /**
  * @package MTool

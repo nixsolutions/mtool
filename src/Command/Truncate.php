@@ -1,7 +1,5 @@
 <?php
 
-require_once 'Abstract.php';
-
 /**
  * Class MTool_Command_Truncate
  * @package MTool
