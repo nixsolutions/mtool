@@ -1,0 +1,24 @@
+#!/usr/bin/env php
+<?php
+// REQUIRED! Constant contents absolute path to run script
+define('PATH', dirname(__FILE__));
+
+// path for configs file
+$configPath = dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'application' . 
+    DIRECTORY_SEPARATOR . 'configs';
+define('CONFIG_PATH', $configPath);
+
+// Add include path with MTool library
+$mToolPath = dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR 
+    . 'library' . DIRECTORY_SEPARATOR . 'Project';
+set_include_path(
+    implode(PATH_SEPARATOR, array(realpath($mToolPath), get_include_path()))
+);
+
+$params = array();
+if ($argc > 2) {
+    for ($i = 2; $i <= $argc - 1; $i++) $params[] = $argv[$i];
+}
+
+require_once 'MTool/Exec.php';
+MTool_Exec::run($argv[1], $params);
