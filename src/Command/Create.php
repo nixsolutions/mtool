@@ -10,6 +10,7 @@ class MTool_Command_Create extends MTool_Command_Abstract
      * Main method, implements command 'create'
      *
      * @param array $params
+     * @throws Exception
      */
     protected function _exec($params = array())
     {
