@@ -16,7 +16,7 @@ class MTool_Command_Snapshot extends MTool_Command_Abstract
         $config = $this->getConfig();
 
         list($sec, $msec) = explode(".", microtime(true));
-        $migration = date('Ymd_His_', $sec) . sprintf("%02d", $msec);
+        $migration = date('Ymd_His_', $sec) . sprintf("%02d", $msec % 100);
 
         $path = PATH . '/' . $config->path;
 
