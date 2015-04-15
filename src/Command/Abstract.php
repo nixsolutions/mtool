@@ -292,7 +292,7 @@ abstract class MTool_Command_Abstract
 
                 $sql = "CREATE TABLE IF NOT EXISTS `" . $config->table . "`(
                            `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT ,
-                           `migration` varchar(19) NOT NULL ,
+                           `migration` varchar(22) NOT NULL ,
                             PRIMARY KEY (`id`)
                         )";
                 if (!$this->_db->query($sql)) {
